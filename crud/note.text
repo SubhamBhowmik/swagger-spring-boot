@@ -1,0 +1,17 @@
+1. add spring fox boot starter dependency version 3.0.0 (30-09-2023)
+
+<!-- https://mvnrepository.com/artifact/io.springfox/springfox-boot-starter -->
+<dependency>
+    <groupId>io.springfox</groupId>
+    <artifactId>springfox-boot-starter</artifactId>
+    <version>3.0.0</version>
+</dependency>
+
+
+2.enable web mvc in securrity config class file (which extends WebSecurityConfigureAdapter (JWT security config file))
+ watch https://youtu.be/A-lqrhhMEYY?si=Off9B4xx-8IMclIx
+ 
+ add this @EnableWebMvc annotation
+ to view http://localhost:8080/swagger-ui/index.html
+ 
+ 3.to customize it in our way we configure it 
